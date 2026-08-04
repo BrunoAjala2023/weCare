@@ -1,0 +1,158 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-image{
+
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+header{
+
+    margin: 44px 0 144px 76px;
+}
+
+.link-header{
+
+    font-size: 24px;
+    font-weight: 600px;
+    margin-right: 23px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #989d9c;
+}
+
+.button-header{
+
+    background: #665ae1;
+    width: 130px;
+    height: 41px;
+    font-size: 24px;
+    font-weight: 600px;
+    border-radius: 20.5px;
+    cursor: pointer;
+    border: none;
+    line-height: 29px;
+    color: #ffffff;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    width: 513px;
+    height: 122px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p{
+
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #848484;
+}
+
+.button-main{
+
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #adff00;
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+    line-height: 34px;
+    cursor: pointer;;
+    color: #000;
+    margin-top: 125px;
+    
+}
+
+main{
+
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        display: none;
+    }
+    
+    p {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px;
+        min-height: 100vh;
+    }
+
+    .content {
+        width: 90%;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0;
+        top: 0;
+        color: #515151;
+    }
+
+    .logo-image {
+        width: 80%;
+        height: auto;
+        margin: 150px 22px 334px -40px; 
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        margin-top: -360px;
+        margin-left: -11px;
+        margin-right: 64px;
+        }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-weight: 500;
+        font-size: 30px;
+        margin-left: 8px;
+        
+    }
+
+    .button-main {
+        margin-top: -6px;
+        margin-left: -65px;
+    }
+
+}
