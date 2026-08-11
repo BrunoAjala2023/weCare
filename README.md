@@ -27,13 +27,13 @@ O projeto foi desenvolvido durante meus estudos de desenvolvimento Front-end, co
 ### 💻 Desktop
 
 <p align="center">
-  <img src="./img/desktop.png" alt="Preview do projeto no desktop" width="900">
+  <img src="./img/desktop.png" alt="Preview do projeto no desktop" width="300">
 </p>
 
 ### 📱 Mobile
 
 <p align="center">
-  <img src="./img/mobile.png" alt="Preview do projeto no mobile" width="300">
+  <img src="./img/mobile.png" alt="Preview do projeto no mobile" width="80">
 </p>
 
 ---
